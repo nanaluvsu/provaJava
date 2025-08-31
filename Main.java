@@ -4,7 +4,7 @@ public class Main
     {
         try
         {
-            Data d1 = new Data ((byte)12,(byte)8,(short)2025);
+            Data d1 = new Data ((byte)28,(byte)2,(short)2024);
             System.out.println (d1.getDia()+"/"+d1.getMes()+"/"+d1.getAno()); // 12/8/2025
             
             d1.avanceUmDia();
